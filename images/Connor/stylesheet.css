@@ -1,0 +1,517 @@
+
+@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+
+* {
+	margin: 0;
+}
+
+body {
+  background: #ee;
+  font-family: 'helvetica Neue';
+}
+
+#wrapper{
+	margin: 0 auto;
+	max-width: 900px;
+	background-color:#D3D3D3;
+}
+
+#banner{
+	min-height: 100px;
+	max-width: 880px;
+	padding: 5px;
+	margin: 5px;
+
+	
+}
+
+h1 {
+	padding: 10px;
+	font-size: 40px;
+	font-family: 'Aclonica';
+	color: white;
+	border: 1px solid #000;
+	max-width: 650px;
+	max-height: 650px;
+	text-align: center;
+	background-color: #3d8af7;
+	
+}
+
+#navigation{
+	min-height: 100px;
+	width: 96%;
+	margin-left: 16px;
+	background-color:#D3D3D3;
+
+}
+
+#myNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3d8af7;
+	border: 1px solid #000;
+	
+}
+
+#myNav li {
+    float: left;
+	border-right: 1px solid #FFF;
+}
+
+#myNav li:last-child {
+    border-right: none;
+}
+
+#myNav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#myNav li a:hover{
+color:red;
+}
+
+#myNav li:hover{
+background-color:darkblue;
+}
+
+
+#content{
+	height: auto;
+	max-width: 880px;
+	padding: 5px;
+	margin: 5px;
+	color:black;
+	background-color: #D3D3D3;
+}
+
+.images {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Almendra';
+	font-size: 20px;
+}
+
+.musical_images {
+	height: 170px;
+	width: 285px;
+	margin-right: 5px;
+}
+
+#map {
+	margin: 20px;	
+	text-align: left;
+	display: inline-block;
+}
+	
+.information {
+	display: flex;
+}	
+	
+#info, #info1, #info2{
+font-family: 'PT Sans', sans-serif;
+width: 90%;
+margin: 0 auto;
+}	
+
+
+#footer{
+	height: 160px;
+	max-width: 880px;
+	padding: 5px;
+	margin: 5px;
+	color:black;
+	background-color:#D3D3D3;
+    border-top-style: solid;
+	 
+}
+
+body{
+background-image: url("images/Theater.jpg");
+background-repeat: no-repeat;
+}
+
+
+ 
+.button {
+  width: 160px;
+  height: 50px;
+  background-color:  #3b5998;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  overflow: hidden;
+  cursor: pointer;
+  color: #fff;
+}
+.button:after, .button:before {
+	font-family: 'Ionicons';
+  content: '\f231';
+  font-size: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+
+}
+.button:hover:after {
+  top: -50%;
+}
+.button:before {
+  content: 'Share';
+  font-size:15px;
+  top: 190%;
+}
+.button:hover:before {
+  top: 50%;
+}
+.button_location{
+	position:relative;
+	top:30px;
+	right:350px;
+	
+}
+.button2 {
+  width: 160px;
+  height: 50px;
+  background-color: #55acee;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  overflow: hidden;
+  cursor: pointer;
+  color: #fff;
+}
+.button2:after, .button2:before {
+	font-family:Ionicons;
+  content: '\f243';
+   font-size:40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+
+}
+.button2:hover:after {
+  top: -50%;
+}
+.button2:before {
+  content: 'Tweet';
+  font-size: 15px;
+  top: 190%;
+}
+.button2:hover:before {
+  top: 50%;
+}
+.button_location2{
+	position:relative;
+	top:85px;
+	right:350px;
+	
+}
+.button3 {
+  width: 160px;
+  height: 50px;
+  background-color: #bc2a8d;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  overflow: hidden;
+  cursor: pointer;
+  color: #fff;
+}
+.button3:after, .button3:before {
+	font-family:Ionicons;
+  content: '\f350';
+  font-size:40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+
+}
+.button3:hover:after {
+  top: -50%;
+}
+.button3:before {
+
+  content: 'Instagram';
+  font-size: 15px;
+  top: 190%;
+}
+.button3:hover:before {
+  top: 50%;
+}
+.button_location3{
+	position:relative;
+	top:140px;
+	right:350px;
+	
+}
+.button4 {
+  width: 160px;
+  height: 50px;
+  background-color:  #3b5998;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  overflow: hidden;
+  cursor: pointer;
+  color: #fff;
+}
+.button4:after, .button4:before {
+	font-family: 'Ionicons';
+  content: '\f231';
+  font-size: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+
+}
+.button4:hover:after {
+  top: -50%;
+}
+.button4:before {
+  content: 'Share';
+  font-size:15px;
+  top: 190%;
+}
+.button4:hover:before {
+  top: 50%;
+}
+.button_location4{
+	position:relative;
+	top:30px;
+	right:185px;
+	
+}
+.button5 {
+  width: 160px;
+  height: 50px;
+  background-color: #55acee;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  overflow: hidden;
+  cursor: pointer;
+  color: #fff;
+}
+.button5:after, .button5:before {
+	font-family:Ionicons;
+  content: '\f243';
+   font-size:40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+
+}
+.button5:hover:after {
+  top: -50%;
+}
+.button5:before {
+  content: 'Tweet';
+  font-size: 15px;
+  top: 190%;
+}
+.button5:hover:before {
+  top: 50%;
+}
+.button_location5{
+	position:relative;
+	top:85px;
+	right:185px;
+	
+}
+.button6 {
+  width: 160px;
+  height: 50px;
+  background-color: #bc2a8d;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  overflow: hidden;
+  cursor: pointer;
+  color: #fff;
+}
+.button6:after, .button6:before {
+	font-family:Ionicons;
+  content: '\f350';
+  font-size:40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+
+}
+.button6:hover:after {
+  top: -50%;
+}
+.button6:before {
+
+  content: 'Instagram';
+  font-size: 15px;
+  top: 190%;
+}
+.button6:hover:before {
+  top: 50%;
+}
+.button_location6{
+	position:relative;
+	top:140px;
+	right:185px;
+	
+}
+
+/*-----------------
+Lion King Styling
+------------------*/
+#lkwrapper{
+	margin: 0 auto;
+	max-width: 880px;
+	background-color: #ffc01f;
+}
+
+.lionking_page body{
+background-image: url('images/BackroundLK.jpg');
+background-repeat: no-repeat;
+}
+
+#lkbanner{
+	min-height: 110px;
+	max-width: 880px;
+}
+
+.lionking_page #banner {
+text-align: center;
+margin: 0;
+padding: 0;
+
+}
+
+.lionking_page #banner_img {
+	width: 100%;
+}
+#LKnavigation{
+	min-height: 100px;
+	width: 880px;
+	background-color:#blue;
+	margin-bottom:0px;
+}
+
+#myNavlk ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffc01f;
+
+		
+}
+
+#myNavlk li {
+    float: left;
+	border-right: 1px solid #FFF;
+}
+
+#myNavlk li:last-child {
+    border-right: none;
+}
+
+#myNavlk li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#myNavlk li a:hover{
+color:blue;
+}
+
+#myNavlk li:hover{
+background-color:darkred;
+}
+
+#lkcontent{
+	height: auto;
+	max-width: 880px;
+	color:black;
+	background-color: #c02222;
+	margin-top:-47px;
+	
+}
+
+.LKimages {
+
+	border: 1px solid white;
+}
+
+#LKinformation{
+font-family: 'PT Sans', sans-serif;
+font-size: 20px;
+width: 45%;
+margin-top: 40px;
+margin-left: 40px;
+padding-right: 15;
+}
+
+#LKinformation2{
+font-family: 'PT Sans', sans-serif;
+font-size: 10px;
+width: 45%;
+margin-top: 0px;
+margin-left: 0px;
+padding-right: ;
+}
+
+.lionking_page #ticket_prices {
+	width: 40%;
+	margin: 0 auto;
+	text-align: right;
+	padding-left: 70px;
+	border-left: 1px solid #000;
+}
+
+.LK_information {
+	display: flex;
+	justify-content: center;
+	color: white;
+}	
+
+h5 {
+	font-family: 'Almendra';
+	font-size: 20px;
+}
+

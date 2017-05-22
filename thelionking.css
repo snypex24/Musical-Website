@@ -1,0 +1,258 @@
+@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+
+#mynav{
+}
+
+#mynav ul {
+
+	width:880px;
+	height:46px;
+    list-style-type: none;
+	margin: 0px;
+    margin-left: 5px;
+    padding: 0px;
+    background-color: #df7e0a;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#mynav li {
+float:left;
+}
+
+#mynav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#mynav li a:hover {
+    background-color: #d16800;
+}
+.active {
+    background-color: #e0b300;
+}
+#wrapper{
+margin: 0 auto;
+max-width:900px;
+
+}
+
+#banner{
+min-height:50x;
+max-width:880px;
+padding:5px;
+margin: 5px 5px 0px ;
+background-color:#4e231d;
+border-left: 5px solid black;
+border-right: 5px solid black;
+border-top: 5px solid black;
+text-align:center;
+color:white;
+}
+
+#content{
+max-height:600px;
+max-width:880px;
+padding:5px;
+margin-left:5px;
+margin-right:5px;
+background-color:#730505;
+border-right: 5px solid black;
+border-left: 5px solid black;
+color:white;
+}
+
+#image1{
+display: inline-block;
+position:relative;
+float:left;
+left:115px;
+margin-top:10px;
+}
+#image2{
+display: inline-block;
+text-align:center;
+position:relative;
+left:137px;
+margin-top:10px;
+size:100%;
+}
+#image3{
+display: inline-block;
+position:relative;
+float:right;
+right:110px;
+margin-top:10px;
+size:100%;
+}
+#paragraph1{
+	text-align:left;
+	width:350px;
+	
+	
+}
+#image4{
+	display: inline-block;
+	position:relative;
+	left:460px;
+	bottom:260px;
+	
+}
+#footer{
+
+height:60px;
+width:870px;
+padding:5px;
+position:relative;
+bottom:150px;
+right:10px;
+background-color:#4e231d;
+border-left: 5px solid black;
+border-right: 5px solid black;
+border-bottom: 5px solid black;
+border-top: 1px solid black;
+text-align:center;
+
+}
+
+
+body{
+ background: url(images/background2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  background-color:  #3b5998;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  overflow: hidden;
+  cursor: pointer;
+  color: #fff;
+}
+.button:after, .button:before {
+	font-family: 'Ionicons';
+  content: '\f231';
+  font-size: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+
+}
+.button:hover:after {
+  top: -50%;
+}
+.button:before {
+  content: 'Share';
+  font-size:15px;
+  top: 190%;
+}
+.button:hover:before {
+  top: 50%;
+}
+.button_location{
+	
+	position:relative;
+	left:257px;
+	top:30px;
+	
+}
+.button2 {
+  width: 60px;
+  height: 60px;
+  background-color: #55acee;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  overflow: hidden;
+  cursor: pointer;
+  color: #fff;
+}
+.button2:after, .button2:before {
+	font-family:Ionicons;
+  content: '\f243';
+   font-size:40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+
+}
+.button2:hover:after {
+  top: -50%;
+}
+.button2:before {
+  content: 'Tweet';
+  font-size: 15px;
+  top: 190%;
+}
+.button2:hover:before {
+  top: 50%;
+}
+.button_location2{
+	position:relative;
+	left:328px;
+	top:30px;
+	
+}
+.button3 {
+  width: 60px;
+  height: 60px;
+  background-color: #dd4b39;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  overflow: hidden;
+  cursor: pointer;
+  color: #fff;
+}
+.button3:after, .button3:before {
+	font-family:Ionicons;
+  content: '\f235';
+  font-size:40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+
+}
+.button3:hover:after {
+  top: -50%;
+}
+.button3:before {
+
+  content: 'Google+';
+  font-size: 15px;
+  top: 190%;
+}
+.button3:hover:before {
+  top: 50%;
+}
+.button_location3{
+	position:relative;
+	left:400px;
+	top:30px;
+	
+}
